@@ -255,7 +255,7 @@ Getting data is simple as the structure follows the [Alpha Vantage API documenta
 ```{r, eval = F}
 # Scaling is as simple as supplying multiple symbols
 c("FB", "MSFT") %>%
-    tq_get(get = "alphavantage", av_fun = "TIME_SERIES_INTRADAY", interval = "5min")
+    tq_get(get = "alphavantager", av_fun = "TIME_SERIES_INTRADAY", interval = "5min")
 ```
 
 ## 2.6 Bloomberg
